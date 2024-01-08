@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "your-build-command-here && mkdir -p dist && cp -r build/* dist/",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
